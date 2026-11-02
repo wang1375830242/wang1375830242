@@ -1,0 +1,168 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="560" viewBox="0 0 880 560" font-family="Songti SC, Source Han Serif SC, Noto Serif SC, SimSun, serif">
+  <defs>
+    <pattern id="grain" width="5" height="5" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.5" fill="#7A5A3C" opacity="0.16"/>
+    </pattern>
+    <radialGradient id="wash" cx="28%" cy="18%" r="82%">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.6"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="avatarClip"><circle cx="222" cy="86" r="38"/></clipPath>
+  </defs>
+
+  <rect width="880" height="560" fill="#FAF6EF"/>
+  <rect width="880" height="560" fill="url(#grain)"/>
+  <rect width="880" height="560" fill="url(#wash)"/>
+  <rect x="12" y="12" width="856" height="536" fill="none" stroke="#4A3C2A" stroke-opacity="0.14"/>
+
+  <line x1="140" y1="34" x2="140" y2="526" stroke="#4A3C2A" stroke-opacity="0.18"/>
+  <line x1="742" y1="34" x2="742" y2="526" stroke="#4A3C2A" stroke-opacity="0.14"/>
+
+  <!-- 左：题名与印 -->
+  <text x="58" y="132" font-size="76" fill="#23201B" letter-spacing="2">樱</text>
+  <g transform="rotate(-2 92 360)">
+    <rect x="62" y="330" width="60" height="60" fill="#B33A2B"/>
+    <rect x="66" y="334" width="52" height="52" fill="none" stroke="#FBF3E9" stroke-opacity="0.55"/>
+    <text x="92" y="353" font-size="14" fill="#FBF3E9" text-anchor="middle" letter-spacing="1">樱</text>
+    <text x="92" y="371" font-size="14" fill="#FBF3E9" text-anchor="middle" letter-spacing="1">笺</text>
+  </g>
+  <!--DATELINE-->
+
+  <!-- 头像 -->
+  <circle cx="222" cy="86" r="39.5" fill="none" stroke="#4A3C2A" stroke-opacity="0.18"/>
+  <image x="184" y="48" width="76" height="76" clip-path="url(#avatarClip)" href="data:image/png;base64,{{AVATAR_B64}}"/>
+
+  <!-- 名字 -->
+  <text x="176" y="188" font-size="38" fill="#23201B" letter-spacing="0.5">Sakura</text>
+  <text x="177" y="212" font-size="11" fill="#6E6252" letter-spacing="1.6">wang1375830242</text>
+  <line x1="176" y1="230" x2="640" y2="230" stroke="#4A3C2A" stroke-opacity="0.3"/>
+
+  <!-- 自述 -->
+  <text x="176" y="262" font-size="13.5" fill="#3A3228" letter-spacing="0.3">{{BIO_1}}</text>
+  <text x="176" y="286" font-size="13.5" fill="#3A3228" letter-spacing="0.3">{{BIO_2}}</text>
+  <text x="176" y="310" font-size="13.5" fill="#B33A2B" letter-spacing="0.3">{{BIO_3}}</text>
+
+  <!-- 卷目 -->
+  <text x="176" y="366" font-size="17" fill="#23201B">TraeGuard</text>
+  <text x="330" y="366" font-size="10.5" fill="#8B7C68" letter-spacing="0.5">JavaScript</text>
+  <text x="704" y="366" font-size="10.5" fill="#6E6252" text-anchor="end">★ {{STAR_1}}</text>
+  <text x="176" y="385" font-size="10.5" fill="#6E6252">本地重试代理 · 控制面板 · 单文件 exe</text>
+  <line x1="176" y1="398" x2="730" y2="398" stroke="#4A3C2A" stroke-opacity="0.2" stroke-dasharray="1 3"/>
+
+  <text x="176" y="426" font-size="17" fill="#23201B">一介凡人</text>
+  <text x="330" y="426" font-size="10.5" fill="#8B7C68" letter-spacing="0.5">JavaScript</text>
+  <text x="704" y="426" font-size="10.5" fill="#6E6252" text-anchor="end">★ {{STAR_2}}</text>
+  <text x="176" y="445" font-size="10.5" fill="#6E6252">修仙人生模拟，随机降生，一世修行</text>
+  <line x1="176" y1="458" x2="730" y2="458" stroke="#4A3C2A" stroke-opacity="0.2" stroke-dasharray="1 3"/>
+
+  <text x="176" y="486" font-size="17" fill="#23201B">博客源码</text>
+  <text x="330" y="486" font-size="10.5" fill="#8B7C68" letter-spacing="0.5">HTML</text>
+  <text x="704" y="486" font-size="10.5" fill="#6E6252" text-anchor="end">★ {{STAR_3}}</text>
+  <text x="176" y="505" font-size="10.5" fill="#6E6252">文章、笔记与未写完的草稿</text>
+
+  <!-- 右：题跋与统计 -->
+  <g font-size="11.5" fill="#6E6252" text-anchor="middle">
+    <text x="796" y="96">见</text>
+    <text x="796" y="116">字</text>
+    <text x="796" y="136">如</text>
+    <text x="796" y="156">面</text>
+    <text x="799" y="173">。</text>
+    <text x="796" y="196">落</text>
+    <text x="796" y="216">笔</text>
+    <text x="796" y="236">之</text>
+    <text x="796" y="256">处</text>
+    <text x="799" y="273">，</text>
+    <text x="796" y="296">皆</text>
+    <text x="796" y="316">是</text>
+    <text x="796" y="336">修</text>
+    <text x="796" y="356">行</text>
+    <text x="799" y="373">。</text>
+  </g>
+
+  <text x="756" y="422" font-size="10.5" fill="#8B7C68">{{REPO_TOTAL}} 个仓库</text>
+  <text x="756" y="440" font-size="10.5" fill="#8B7C68">{{STAR_TOTAL}} 颗星</text>
+  <text x="756" y="458" font-size="10.5" fill="#8B7C68">{{COMMIT_TOTAL}} 次落笔</text>
+  <text x="756" y="476" font-size="10.5" fill="#8B7C68">最近落笔 {{LATEST}}</text>
+
+  <!-- 落花 -->
+  <g opacity="0.85">
+    <animateTransform attributeName="transform" type="translate" values="0 -60; 34 600" dur="15s" repeatCount="indefinite"/>
+    <g transform="translate(648,150)">
+      <path d="M0 0 C4 -6 10 -6 12 0 C10 6 4 7 0 0 Z" fill="#F0AFC0">
+        <animateTransform attributeName="transform" type="rotate" values="0 6 0;360 6 0" dur="19s" repeatCount="indefinite"/>
+      </path>
+    </g>
+  </g>
+  <g opacity="0.7">
+    <animateTransform attributeName="transform" type="translate" values="0 -80; -22 610" dur="21s" repeatCount="indefinite" begin="-6s"/>
+    <g transform="translate(700,180)">
+      <path d="M0 0 C3 -5 9 -5 11 0 C9 5 3 6 0 0 Z" fill="#EFA3B8">
+        <animateTransform attributeName="transform" type="rotate" values="0 5 0;-320 5 0" dur="16s" repeatCount="indefinite"/>
+      </path>
+    </g>
+  </g>
+  <g opacity="0.6">
+    <animateTransform attributeName="transform" type="translate" values="0 -40; 18 620" dur="18s" repeatCount="indefinite" begin="-11s"/>
+    <g transform="translate(96,500)">
+      <path d="M0 0 C3 -5 8 -5 10 0 C8 5 3 6 0 0 Z" fill="#F5C2D0">
+        <animateTransform attributeName="transform" type="rotate" values="0 5 0;300 5 0" dur="23s" repeatCount="indefinite"/>
+      </path>
+    </g>
+  </g>
+  <g opacity="0.55">
+    <animateTransform attributeName="transform" type="translate" values="0 -100; 40 590" dur="13s" repeatCount="indefinite" begin="-3s"/>
+    <g transform="translate(560,60)">
+      <path d="M0 0 C3 -4 8 -4 10 0 C8 4 3 5 0 0 Z" fill="#F7C6D3">
+        <animateTransform attributeName="transform" type="rotate" values="0 5 0;-260 5 0" dur="14s" repeatCount="indefinite"/>
+      </path>
+    </g>
+  </g>
+  <g opacity="0.5">
+    <animateTransform attributeName="transform" type="translate" values="0 -70; -30 600" dur="17s" repeatCount="indefinite" begin="-9s"/>
+    <g transform="translate(820,200)">
+      <path d="M0 0 C3 -4 8 -4 10 0 C8 4 3 5 0 0 Z" fill="#EFA3B8">
+        <animateTransform attributeName="transform" type="rotate" values="0 5 0;280 5 0" dur="20s" repeatCount="indefinite"/>
+      </path>
+    </g>
+  </g>
+  <g opacity="0.5">
+    <animateTransform attributeName="transform" type="translate" values="0 -90; 22 610" dur="16s" repeatCount="indefinite" begin="-4s"/>
+    <g transform="translate(340,50) scale(1.05)">
+      <path d="M0 0 C4 -6 10 -6 12 0 C10 6 4 7 0 0 Z" fill="#F5C2D0">
+        <animateTransform attributeName="transform" type="rotate" values="0 6 0;340 6 0" dur="21s" repeatCount="indefinite"/>
+      </path>
+    </g>
+  </g>
+  <g opacity="0.55">
+    <animateTransform attributeName="transform" type="translate" values="0 -50; -26 600" dur="19s" repeatCount="indefinite" begin="-13s"/>
+    <g transform="translate(420,260) scale(0.9)">
+      <path d="M0 0 C3 -5 9 -5 11 0 C9 5 3 6 0 0 Z" fill="#F0AFC0">
+        <animateTransform attributeName="transform" type="rotate" values="0 5 0;-300 5 0" dur="17s" repeatCount="indefinite"/>
+      </path>
+    </g>
+  </g>
+  <g opacity="0.6">
+    <animateTransform attributeName="transform" type="translate" values="0 -120; 30 630" dur="12s" repeatCount="indefinite" begin="-7s"/>
+    <g transform="translate(520,380) scale(1.2)">
+      <path d="M0 0 C4 -6 10 -6 12 0 C10 6 4 7 0 0 Z" fill="#F7C6D3">
+        <animateTransform attributeName="transform" type="rotate" values="0 6 0;320 6 0" dur="25s" repeatCount="indefinite"/>
+      </path>
+    </g>
+  </g>
+  <g opacity="0.5">
+    <animateTransform attributeName="transform" type="translate" values="0 -60; -18 590" dur="23s" repeatCount="indefinite" begin="-15s"/>
+    <g transform="translate(760,80) scale(0.85)">
+      <path d="M0 0 C3 -4 8 -4 10 0 C8 4 3 5 0 0 Z" fill="#EFA3B8">
+        <animateTransform attributeName="transform" type="rotate" values="0 5 0;-280 5 0" dur="18s" repeatCount="indefinite"/>
+      </path>
+    </g>
+  </g>
+  <g opacity="0.55">
+    <animateTransform attributeName="transform" type="translate" values="0 -40; 24 620" dur="14s" repeatCount="indefinite" begin="-2s"/>
+    <g transform="translate(38,150)">
+      <path d="M0 0 C4 -6 10 -6 12 0 C10 6 4 7 0 0 Z" fill="#F5C2D0">
+        <animateTransform attributeName="transform" type="rotate" values="0 6 0;300 6 0" dur="22s" repeatCount="indefinite"/>
+      </path>
+    </g>
+  </g>
+</svg>

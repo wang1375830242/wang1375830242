@@ -1,0 +1,41 @@
+name: 更新主页
+
+on:
+  schedule:
+    # 每天 08:10（北京时间）跑一次；只有内容变化时才提交
+    - cron: "10 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-update
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: 重新生成整页图
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/update-profile.mjs
+
+      - name: 有变化才提交
+        run: |
+          if git diff --quiet -- assets/hero.svg; then
+            echo "内容没有变化，跳过提交"
+            exit 0
+          fi
+          git config user.name "wang1375830242"
+          git config user.email "45417832+wang1375830242@users.noreply.github.com"
+          git add assets/hero.svg
+          git commit -m "chore: 更新季节与卷目"
+          git push
