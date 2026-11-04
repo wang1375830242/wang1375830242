@@ -56,7 +56,7 @@
 
   <text x="176" y="426" font-size="17" fill="#23201B">一介凡人</text>
   <text x="330" y="426" font-size="10.5" fill="#8B7C68" letter-spacing="0.5">JavaScript</text>
-  <text x="704" y="426" font-size="10.5" fill="#6E6252" text-anchor="end">★ 5</text>
+  <text x="704" y="426" font-size="10.5" fill="#6E6252" text-anchor="end">★ 6</text>
   <text x="176" y="445" font-size="10.5" fill="#6E6252">修仙人生模拟，随机降生，一世修行</text>
   <line x1="176" y1="458" x2="730" y2="458" stroke="#4A3C2A" stroke-opacity="0.2" stroke-dasharray="1 3"/>
 
@@ -85,8 +85,8 @@
   </g>
 
   <text x="756" y="422" font-size="10.5" fill="#8B7C68">39 个仓库</text>
-  <text x="756" y="440" font-size="10.5" fill="#8B7C68">21 颗星</text>
-  <text x="756" y="458" font-size="10.5" fill="#8B7C68">139 次落笔</text>
+  <text x="756" y="440" font-size="10.5" fill="#8B7C68">22 颗星</text>
+  <text x="756" y="458" font-size="10.5" fill="#8B7C68">140 次落笔</text>
   <text x="756" y="476" font-size="10.5" fill="#8B7C68">最近落笔 2026-11-02</text>
 
   <!-- 落花 -->
