@@ -31,7 +31,7 @@
   <text x="92" y="434" font-size="11" fill="#6E6252" text-anchor="middle">二</text>
   <text x="92" y="447" font-size="11" fill="#6E6252" text-anchor="middle">六</text>
   <text x="92" y="460" font-size="11" fill="#6E6252" text-anchor="middle">·</text>
-  <text x="92" y="473" font-size="11" fill="#6E6252" text-anchor="middle">秋</text>
+  <text x="92" y="473" font-size="11" fill="#6E6252" text-anchor="middle">冬</text>
 
   <!-- 头像 -->
   <circle cx="222" cy="86" r="39.5" fill="none" stroke="#4A3C2A" stroke-opacity="0.18"/>
@@ -86,8 +86,8 @@
 
   <text x="756" y="422" font-size="10.5" fill="#8B7C68">39 个仓库</text>
   <text x="756" y="440" font-size="10.5" fill="#8B7C68">23 颗星</text>
-  <text x="756" y="458" font-size="10.5" fill="#8B7C68">142 次落笔</text>
-  <text x="756" y="476" font-size="10.5" fill="#8B7C68">最近落笔 2026-11-02</text>
+  <text x="756" y="458" font-size="10.5" fill="#8B7C68">144 次落笔</text>
+  <text x="756" y="476" font-size="10.5" fill="#8B7C68">最近落笔 2026-11-06</text>
 
   <!-- 落花 -->
   <g opacity="0.85">
